@@ -12,6 +12,8 @@ import org.springframework.security.oauth2.provider.token.DefaultUserAuthenticat
 import org.springframework.security.oauth2.provider.token.RemoteTokenServices;
 import org.springframework.security.oauth2.provider.token.UserAuthenticationConverter;
 
+import com.sdpark.example.remoteresourceserver.security.Users;
+
 @Configuration
 @EnableResourceServer
 public class OAuth2ResourceServer extends ResourceServerConfigurerAdapter {
